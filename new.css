@@ -1,0 +1,625 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*SECTION 1-HEADER*/
+
+.header{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/first.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*NAVIGATION BAR 1*/
+
+#nav1{
+    display: flex;
+    padding: .5em 18em;
+    background-color:#525252;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav-links1{
+    display: flex;
+    text-align: right;
+}
+.nav-links1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: .5em;
+
+}
+.link1{
+    font-size: .7em;
+    color: #A5ABA0;
+
+}
+.exitlogin{
+    display: flex;
+    width:6rem;
+    align-items: center;
+    background: #FF4500;
+}
+.exit{
+    background-color:#A5ABA0; ;
+    padding: .5em .55em;
+}
+.fa-sharp {
+    color: #fff;
+    font-size: 1rem;
+}
+.login{
+    color:#fff;
+    background: #FF4500;
+    font-size: .7em;
+    padding: .5em;
+}
+
+/*NAVIGATION BAR 2*/
+
+#nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A5ABA0;
+}
+.nav-links2{
+    display: flex;
+    background-color: #A5ABA0;
+}
+.link{
+    list-style: none;
+    display: inline-block;
+    padding:1.25em 2.5em;
+    border-right: #72796d 1px solid;
+}
+.link2{
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+
+}
+.home{
+    background-color: #FF4500;
+    padding: 1.25em;
+
+}
+#icon{
+    list-style: none;
+    display: inline-block;
+    padding:1.25em 0em;
+}
+
+/*TITLE*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+
+    align-items: center;
+    margin:4em auto;
+    
+}
+.title-icon{
+    background-color: #FF4500;
+    padding: 1.2em;
+    border-radius: 100%;
+}
+.fa-laptop{
+    font-size:1rem;
+    color: #fff;
+}
+.title{
+    display: inline;
+    text-align: justify;
+    margin: .5em;
+}
+.main{
+    font-size: 2.7em;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #fff;  
+}
+.sub{
+    font-size: .55em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+/*TEXTBOX*/
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 1em auto;
+
+}
+.textbox h1{
+    font-size: 4em;
+
+}
+.textbox p{
+    font-size: 1.5em;
+
+}
+
+/*SEARCH BAR*/
+
+.search-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em auto;
+
+}
+#search{
+    background: #fff;
+    width:400px;
+    height: 45px;
+    display: flex;
+} 
+#search input{
+    flex: 1;
+    padding-left: .5em;
+    border:none;
+    outline: none;
+
+}
+#search button{
+     background: #FF4500 ;
+     padding: 10px 15px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+}
+.fa-magnifying-glass{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+/*SECTION 2- SERVICES*/
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6D6D6;
+    padding:4em 8em;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:20%;
+    background-color: #fff;
+    padding-top: 3em;
+    margin: 1em;
+}
+.services-icon1{
+    background-color: #FF4500;
+    padding: 1em;
+    border-radius: 100%;
+
+}
+.fa{
+    font-size: 2em;
+    color: #fff;
+}
+.services-icon2{
+    background-color: #A5ABA0;
+    padding: 1em;
+    border-radius: 100%;
+
+}
+
+.services-icon3{
+    background-color:#525252;
+    padding: 1em;
+    border-radius: 100%;
+
+}
+
+.services-icon4{
+    background-color:#3B3B3B;
+    padding: 1em;
+    border-radius: 100%;
+
+}
+
+.services-text{
+    padding-top: 1em;
+}
+.services-text h3{
+    font-size: 1.75em;
+    color: black;
+    margin:.5em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.services-text h4{
+    font-size: 1.18em;
+    color: #FF4500;
+    text-align: center;
+    text-transform: uppercase;
+}
+.services-text p{
+    font-size: .875em;
+    color: #AEAEAE;
+    text-align: center;
+    padding: 1.5em;
+}
+.info-text{
+    display: flex;
+    align-items: center;
+    padding: .75em .75em .75em 1.5em;
+    margin-top: 1.5em;
+}
+.info{
+    flex:1;
+    justify-content: left;
+    font-size: .781em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+#one{
+    background-color: #FF4500;   
+}
+#two{
+    background-color: #A5ABA0;
+}
+#three{
+    background-color: #525252;
+}
+#four{
+    background-color: #3B3B3B;
+}
+
+.fa-angle-right{
+    font-size: 2em;
+    color: #fff;
+}
+
+/*SECTION 3 -ABOUT*/
+
+.about{
+    display: flex;
+    padding: 4em 12em;
+}
+.about-container{
+    display: flex;
+    width:100%;
+}
+
+.about-content1{
+    margin:.5em;
+    width:60%;
+}
+.about-content1 h2{
+    font-size: 2em;
+    color: #FF4500;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content1-icon{
+    background: #3B3B3B;
+    padding: 2.5em;
+    margin:.5em;
+    border-radius: 50%;
+}
+.content1-icon .fa{
+    color: #fff;
+    font-size: 2.5em;
+}
+.content1-icon .fa-regular{
+    font-size:3em;
+    color: #fff;
+}
+.content1-text{
+    margin:1em;
+    padding: .5em;
+}
+h4.first{
+    font-size: 1.1em;
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    
+}
+h4.second{
+    font-size: 1.1em;
+    color: #FF4500;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.content1-text p{
+    font-size: .875em;
+    color:#AEAEAE;
+    text-align: left;
+}  
+
+.about-content2{
+    margin: .5em;
+    width:40%;
+    
+}
+.about-content2 h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1em;
+
+}
+.about-content2 p{
+    font-size: .875em;
+    color:#AEAEAE;
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+.content2{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.content2-icon{
+    background-color: #FF4500;
+    padding: 1.5em;
+    margin: .5em;
+    border-radius: 100%;
+}
+.content2-icon .fa-regular{
+    color: #fff;
+    font-size: 1.25em;
+
+}
+.content2-text{
+    font-size:1em;
+    color: black;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 2.5em 0;
+}
+.box-text{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: left;
+    padding: 1.25em 2em;
+    text-transform: uppercase;
+    background-color: #A5ABA0;
+}
+.box-out{
+    background-color: #3B3B3B;
+}
+.box-icon{
+    background-color: #FF4500;
+    padding: 1em;
+    margin: 35px;
+    border-radius: 50%;
+}
+.box-icon .fa-file-lines{
+    color: #fff;
+    font-size: 1.15em;
+}
+
+/*--SECTION 4 -MORE ABOUT-*/
+
+.more-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(73, 74, 82, 0.3),rgba(62, 64, 69, 0.3)),url(images/second.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.more-about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    width:80%;
+
+}
+.more-about-text{
+    flex:1;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.more-about-icon{
+   background-color: #FF4500;
+   padding: 1.5em;
+   border-radius: 50%;
+}
+.more-about-container .more-about-icon .fa-file-lines{
+    font-size: 1.5em;
+    color: #fff;
+}
+
+/*SECTION 5 -SUBSCRIBE*/
+
+.subscription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#D6D6D6;
+}
+.subscribe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    text-transform: uppercase;
+}
+.subscribe-container .fa-envelope{
+    color:#FF4500;
+    font-size: 1.75em;
+
+}
+.subscribe-container p{
+    font-size: 1em;
+    color: #3B3B3B;
+    margin: .75em;
+}#newsletter{
+    background: #D6D6D6;
+    width:30em;
+    height: 3.5em;
+    margin-left:1em;
+    display: flex;
+}
+#newsletter input{
+    margin: .5em;
+    text-transform: uppercase;
+    flex: 1;
+    padding:1em;
+    border:none;
+    outline: none;
+}
+#newsletter button{
+    color: #fff;
+    font-size: .8em;
+    font-weight: bold;
+    background-color: #FF4500;
+    outline:none;
+    border:none;
+    padding: 0 3em;
+    margin:.5em;
+    cursor: pointer;
+}
+
+/*SECTION 6-FOOTER*/
+
+.footer{
+    background-color: #3B3B3B;
+    padding: 4em 10em;
+    display: flex;
+    flex-direction: column;
+}
+.footer-main1{
+    display: flex;
+}
+.main1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.main1 h4,.main2 h4{
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.sub1-1 ul li{
+    color:#A5ABA0;
+    font-size: .75em;
+    text-transform: uppercase;
+    list-style: none;
+    padding: .5em;
+}
+.sub1-1{
+    display: flex;
+}
+.col{
+    margin:2em 0em 1em 0em;
+    padding-right: 15%;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+}
+.sub1-2{
+    margin:3em 0;
+}
+#facebook{
+    background-color: #FF4500;
+    padding: 1em;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+.social{
+    background-color:#A5ABA0;
+    padding: 1em;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+.fa-brands,.fa-rss{
+    font-size: 1.25em;
+    color: #fff;
+}
+
+.footer-main2{
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+}
+.footer-logo{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+
+.fl-icon{
+    background-color: #FF4500;
+    padding: 1em;
+    border-radius: 50%;
+}
+.fl-text{
+    margin: .5em;
+}
+.fl-text h1{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+.fl-text p{
+    font-size: .4em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.copyright{
+    display: flex;
+    margin: 1.5em;
+
+}
+.copyright h4{
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 1em;
+}
+#copy{
+    color:#A5ABA0;
+    font-size: .9em;
+    text-transform: capitalize;
+    padding-left: .5em;
+}
